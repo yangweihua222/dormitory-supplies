@@ -1,7 +1,7 @@
 <template>
   <div class="login-page">
     <div class="login-card">
-      <h1 class="login-title">前台管理系统</h1>
+      <h1 class="login-title">宿舍物资管理系统</h1>
 
       <form class="login-form" @submit.prevent="submit">
         <div class="form-item">
@@ -34,7 +34,7 @@
         </button>
       </form>
 
-      <div class="login-footer">© 2026 前台管理系统 版权所有</div>
+      <div class="login-footer">© 2026 宿舍物资管理系统 版权所有</div>
     </div>
 
     <div class="modal-mask" :class="{ show: forgetVisible }" @click.self="forgetVisible = false">

@@ -3,7 +3,7 @@
     <aside class="qt-sidebar" :class="{ collapsed }">
       <div class="qt-sidebar-logo">
         <span style="font-size:17px;">🏠</span>
-        <span v-show="!collapsed">前台管理系统</span>
+        <span v-show="!collapsed">宿舍物资管理系统</span>
       </div>
 
       <nav class="qt-sidebar-menu">
