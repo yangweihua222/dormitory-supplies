@@ -20,13 +20,13 @@
 
 ## 界面预览
 
-完整操作录屏（登录 → 工作台 → 各业务模块走查）：[docs/demo/qiantai-demo.webm](docs/demo/qiantai-demo.webm)（浏览器可直接播放）
+完整操作录屏（登录 → 添加用户并分配权限 → 房间住宿详情 → 添加物资）：[docs/demo/qiantai-demo.webm](docs/demo/qiantai-demo.webm)（浏览器可直接播放）
 
-| 工作台（待办 + 签到打卡） | 排班管理 |
+| 新增用户（权限内联分配，按菜单粒度勾选） | 房间住宿详情（在住/调宿/退宿/交接） |
 |---|---|
-| ![工作台](docs/screenshots/02-dashboard.png) | ![排班管理](docs/screenshots/07-schedule.png) |
-| **物资列表** | **安全检查** |
-| ![物资列表](docs/screenshots/05-material.png) | ![安全检查](docs/screenshots/10-safety.png) |
+| ![新增用户](docs/screenshots/04-user-add-perms.png) | ![房间详情](docs/screenshots/07-room-detail.png) |
+| **添加物资（固定资产/耗材两类）** | **工作台（待办 + 签到打卡）** |
+| ![添加物资](docs/screenshots/08-material-add.png) | ![工作台](docs/screenshots/02-dashboard.png) |
 
 ---
 
