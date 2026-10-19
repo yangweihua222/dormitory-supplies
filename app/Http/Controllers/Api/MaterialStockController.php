@@ -110,7 +110,12 @@ class MaterialStockController extends Controller
         return $this->ok($this->toRow($row->refresh()), '已添加');
     }
 
-    public function update(Request $request, string $direction, MaterialStock $stock): JsonResponse
+    /**
+     * 注意参数顺序：路由 URI 为 /material-stocks/{direction 字面量}/{stock}，
+     * direction 通过 ->defaults() 注入，路由参数实际顺序是 [stock, direction]，
+     * 与之一致才能正确绑定（顺序写反会因类型不符抛 TypeError → 500）。
+     */
+    public function update(Request $request, MaterialStock $stock, string $direction): JsonResponse
     {
         $this->assertDirection($direction);
         abort_if($stock->direction !== $direction, 404);
@@ -124,7 +129,8 @@ class MaterialStockController extends Controller
         return $this->ok($this->toRow($stock->refresh()), '已保存');
     }
 
-    public function destroy(string $direction, MaterialStock $stock): JsonResponse
+    /** 同 update：参数顺序需与路由参数 [stock, direction] 保持一致 */
+    public function destroy(MaterialStock $stock, string $direction): JsonResponse
     {
         $this->assertDirection($direction);
         abort_if($stock->direction !== $direction, 404);

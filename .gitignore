@@ -23,3 +23,6 @@ Homestead.json
 Homestead.yaml
 Thumbs.db
 preview-github.html
+
+# 全接口冒烟测试（依赖本地 qiantai_smoke 副本库，仅本机可用，不入仓库）
+/tests/Feature/FullApiSmokeTest.php
