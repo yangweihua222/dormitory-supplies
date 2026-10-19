@@ -20,13 +20,13 @@
 
 ## 界面预览
 
-完整操作录屏（登录 → 添加用户并分配权限 → 房间住宿详情 → 添加物资）：[docs/demo/qiantai-demo.webm](docs/demo/qiantai-demo.webm)（浏览器可直接播放）
+完整操作录屏（登录 → 添加用户并分配权限 → 房间住宿详情 → 添加物资）：[docs/demo/qiantai-demo.webm](docs/demo/qiantai-demo.webm)（[▶ 在线播放](https://testingcf.jsdelivr.net/gh/yangweihua222/dormitory-supplies@main/docs/demo/qiantai-demo.webm)，GitHub 上为下载链接）
 
 | 新增用户（权限内联分配，按菜单粒度勾选） | 房间住宿详情（在住/调宿/退宿/交接） |
 |---|---|
-| ![新增用户](docs/screenshots/04-user-add-perms.png) | ![房间详情](docs/screenshots/07-room-detail.png) |
+| ![新增用户](https://testingcf.jsdelivr.net/gh/yangweihua222/dormitory-supplies@main/docs/screenshots/04-user-add-perms.png) | ![房间详情](https://testingcf.jsdelivr.net/gh/yangweihua222/dormitory-supplies@main/docs/screenshots/07-room-detail.png) |
 | **添加物资（固定资产/耗材两类）** | **工作台（待办 + 签到打卡）** |
-| ![添加物资](docs/screenshots/08-material-add.png) | ![工作台](docs/screenshots/02-dashboard.png) |
+| ![添加物资](https://testingcf.jsdelivr.net/gh/yangweihua222/dormitory-supplies@main/docs/screenshots/08-material-add.png) | ![工作台](https://testingcf.jsdelivr.net/gh/yangweihua222/dormitory-supplies@main/docs/screenshots/02-dashboard.png) |
 
 ---
 
